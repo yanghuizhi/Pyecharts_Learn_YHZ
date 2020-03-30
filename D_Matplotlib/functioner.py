@@ -36,7 +36,7 @@ def scatterplot1(x_data, y_data, x_label="x label", y_label="x label", title="�
 def scatterplot2(x_data, y_data, x_label="x label", y_label="x label", title="设置默认抬头", color="r"):
 
     plt.figure()
-    _, ax = plt.add_subplot(1, 1, 1)
+    _, ax = plt.subplot(1, 1, 1)
 
     ax.plot(x_data, y_data, 'o', color='r')  # 传入坐标轴、曲线类型(查看api)、颜色
     ax.set_ylabel(y_label)

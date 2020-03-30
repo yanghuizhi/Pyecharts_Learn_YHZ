@@ -25,5 +25,6 @@ def pylabfun(x_data):
     plt.plot(y_data, x_data, 'b*', label='example2')
     plt.legend()
     plt.show()
+    return print("调用完毕")
 
-FigureDemo(2,2)
+FigureDemo(3,3)
